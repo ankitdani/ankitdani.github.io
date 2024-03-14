@@ -14,3 +14,9 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+🔭 I’m currently working on studying Computer Science at Santa Clara Univerity (expecting to graduate in June 2024). 
+👯 I’m looking to collaborate on developing full-stack applications. Check out my portfolio [here](https://ankitdani.github.io/).
+📫 How to reach me: Send me an email at [ankitdani1997@gmail.com](ankitdani1997@gmail.com) or say 'hi' to me on [Linkedin](https://www.linkedin.com/in/ankit-dani/). 
+😄 Pronouns: he/him
+⚡ Fun fact: I enjoy dedicating my time to volunteer for causes and non-profit organizations that champion carbon neutrality, strive for net zero emissions and promote eco-friendly initiatives.
