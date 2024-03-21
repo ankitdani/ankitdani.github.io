@@ -29,5 +29,5 @@ Here are some ideas to get you started:
 <br>
 ⚡ Fun fact: I enjoy dedicating my time to volunteer for causes and non-profit organizations that champion carbon neutrality, strive for net zero emissions and promote eco-friendly initiatives.
 
-## Acknowledgements:
+###### Acknowledgements:
 Customized by Ankit. Original design by Sadee.
