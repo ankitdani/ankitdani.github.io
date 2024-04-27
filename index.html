@@ -1,183 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ankit Dani</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ankit Dani</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
 
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
-  <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    body {
+      background-color: white;
+    }
+  </style>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
-<style>
-  body {
-    background-color: white;
-  }
-</style>
+  <body>
+    <main>
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <!-- <img src="./assets/images/avatar-1.png" alt="Ankit Dani" width="80"> -->
+            <img
+              src="./assets/images/Ankit_Dani.png"
+              alt="Ankit Dani"
+              width="80"
+              style="border-radius: 20px"
+            />
+          </figure>
 
-<body>
+          <div class="info-content">
+            <h1 class="name" title="Ankit Dani">Ankit Dani</h1>
 
-  <main>
+            <p class="title">Software Engineer</p>
+            <p class="title">Conservationist</p>
+          </div>
 
-    <aside class="sidebar" data-sidebar>
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
 
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <!-- <img src="./assets/images/avatar-1.png" alt="Ankit Dani" width="80"> -->
-          <img src="./assets/images/Ankit_Dani.png" alt="Ankit Dani" width="80" style="border-radius: 20px;">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Ankit Dani">Ankit Dani</h1>
-
-          <p class="title">Software Engineer</p>
-          <p class="title">Conservationist</p>
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
         </div>
 
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
 
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
 
-      </div>
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
 
-      <div class="sidebar-info_more">
+                <a href="mailto:ankitdani1997@gmail.com" class="contact-link"
+                  >ankitdani1997@gmail.com</a
+                >
+              </div>
+            </li>
 
-        <div class="separator"></div>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
 
-        <ul class="contacts-list">
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
 
-          <li class="contact-item">
+                <address>Santa Clara, California, USA</address>
+              </div>
+            </li>
+          </ul>
 
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
+          <div class="separator"></div>
 
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/ankit-dani/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
 
-              <a href="mailto:ankitdani1997@gmail.com" class="contact-link">ankitdani1997@gmail.com</a>
-            </div>
+      <div class="main-content">
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
 
-          </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
 
-          <li class="contact-item">
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+          </ul>
+        </nav>
 
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Santa Clara, California, USA</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/ankit-dani/" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-    <div class="main-content">
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-      <!--
+        <!--
         - #ABOUT
       -->
 
-      <article class="about  active" data-page="about">
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
+          <section class="about-text">
+            <p>
+              As a software engineer, my experience spans across multinational
+              corporations to innovative startups. Currently enhancing my skills
+              with a Master's degree in Computer Science and Engineering from
+              Santa Clara University, I also hold a Bachelor's degree in
+              Computer Engineering from the University of Pune. I have presented
+              award-winning papers at IEEE and Springer conferences.
+            </p>
 
-        <section class="about-text">
-          <p>
-            As a software engineer, my experience spans across multinational corporations to innovative startups.
-            Currently
-            enhancing my skills with a Master's degree in Computer Science and Engineering from Santa Clara University,
-            I also
-            hold a Bachelor's degree in Computer Engineering from the University of Pune. I have presented
-            award-winning papers at IEEE and Springer conferences.
-          </p>
+            <p>I am a jack of all trades, trying to become a master of one.</p>
 
-          <p>
-            I am a jack of all trades, trying to become a master of one.
-          </p>
+            <p>
+              Beyond work, I'm someone who loves to make things that help our
+              planet. I really care about keeping the Earth green and reducing
+              pollution. I enjoy building new tech solutions from scratch and
+              solving everyday problems with technology. You can also find me on
+              the Badminton or the Squash court.
+            </p>
 
-          <p>
-            Beyond work, I'm someone who loves to make things that help our planet. I really care about keeping the
-            Earth green and
-            reducing pollution. I enjoy building new tech solutions from scratch and solving everyday problems with
-            technology. You
-            can also find me on the Badminton or the Squash court.
-          </p>
+            <p>
+              Interesting fact -
+              <br />
+              <br />
+              Recently in March 2024, I took a "freakishly accurate" personality
+              test. The results of the tests indicated that my superpowers
+              include being really good at imagining what could be, caring about
+              others, keeping at my goals, and always trying to get better, all
+              while making a positive difference in the world.
+            </p>
+          </section>
 
-          <p>
-            Interesting fact -
-            <br>
-            <br>
-            Recently in March 2024, I took a "freakishly accurate" personality test. The results of the tests indicated
-            that my superpowers my superpowers include being really good at imagining what could be, caring about
-            others, keeping at my goals, and
-            always trying to get better, all while making a positive difference in the world.
-          </p>
-        </section>
-
-
-
-
-        <!--
+          <!--
           - service
         -->
 
-        <section class="service">
+          <section class="service">
+            <!-- <h3 class="h3 service-title">What I'm Doing</h3> -->
 
-          <!-- <h3 class="h3 service-title">What I'm Doing</h3> -->
-
-          <!-- <ul class="service-list">
+            <!-- <ul class="service-list">
 
         <li class="service-item">
 
@@ -244,151 +233,158 @@
         </li>
 
     </ul> -->
-
-        </section>
-
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
           </section>
 
-        </div>
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
 
-      </article>
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
 
-      <!--
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+            </section>
+          </div>
+        </article>
+
+        <!--
         - #RESUME
       -->
 
-      <article class="resume" data-page="resume">
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Download Resume</h2>
+            <!-- <a
+              href="https://drive.google.com/file/d/1c8tjYtUB9PLtyarWqw7y-RP0mqJG9UCQ/view?usp=sharing"
+              style="
+                display: inline-block;
+                padding: 10px 20px;
+                background-color: #007bff;
+                color: #fff;
+                text-decoration: none;
+                border-radius: 5px;
+                margin-right: 10px;
+              "
+              >Resume</a
+            > -->
+          </header>
+          <br />
 
-        <header>
-          <h2 class="h2 article-title">Download Resume</h2>
-          <a href="https://drive.google.com/file/d/1c8tjYtUB9PLtyarWqw7y-RP0mqJG9UCQ/view?usp=sharing"
-            style="display: inline-block; padding: 10px 20px; background-color: #007bff; color: #fff; text-decoration: none; border-radius: 5px; margin-right: 10px;">Resume</a>
-        </header>
-        <br>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
 
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+              <h3 class="h3">Education</h3>
             </div>
 
-            <h3 class="h3">Education</h3>
-          </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Santa Clara University</h4>
 
-          <ol class="timeline-list">
+                <span>Sept 2022 — Jun 2024</span>
 
-            <li class="timeline-item">
+                <p class="timeline-text">
+                  Master of Science (Major in Computer Science)
+                </p>
+              </li>
 
-              <h4 class="h4 timeline-item-title">Santa Clara University</h4>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">University of Pune</h4>
 
-              <span>Sept 2022 — Jun 2024</span>
+                <span>Jun 2015 — Jul 2019</span>
 
-              <p class="timeline-text">
-                Master of Science (Major in Computer Science)
-              </p>
+                <p class="timeline-text">
+                  Bachelor of Engineering (Major in Computer Engineering)
+                </p>
+              </li>
+            </ol>
+          </section>
 
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">University of Pune</h4>
-
-              <span>Jun 2015 — Jul 2019</span>
-
-              <p class="timeline-text">
-                Bachelor of Engineering (Major in Computer Engineering)
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Experience</h3>
             </div>
-            <h3 class="h3">Experience</h3>
-          </div>
 
-          <ol class="timeline-list">
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">HyperLink Org</h4>
+                <span>Jul 2023 - Jan 2024</span>
+                <p class="timeline-text">
+                  ● Developed the user interface using React and PostgreSQL to
+                  create a desktop application that works across Windows
+                  devices.<br /><br />
+                  ● Utilized React Hooks alongside Express and Node to manage
+                  stateful logic within functional components, improving code
+                  maintainability by 20%.<br /><br />
+                  ● Implemented React Router with TypeScript for dynamic
+                  client-side routing, reducing page load times by 30%.
+                </p>
+              </li>
 
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">HyperLink Org</h4>
-              <span>Jul 2023 - Jan 2024</span>
-              <p class="timeline-text">
-                ● Developed the user interface using React and PostgreSQL to create a desktop application that works across Windows
-                devices.<br><br>
-                ● Utilized React Hooks alongside Express and Node to manage stateful logic within functional components, improving code
-                maintainability by 20%.<br><br>
-                ● Implemented React Router with TypeScript for dynamic client-side routing, reducing page load times by 30%.
-              </p>
-            </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Stealth mode</h4>
+                <span>Aug 2021 - Aug 2022</span>
+                <p class="timeline-text">
+                  ● Created web applications integrating payment gateways for 5+
+                  clients with React and Spring Boot to support bank
+                  transfers.<br /><br />
+                  ● Introduced contactless transactions by supporting payment QR
+                  codes using Razorpay API resulting in an 80% adoption rate.<br /><br />
+                  ● Ensured reliability by limiting the transactions per second
+                  (TPS) to 10 by implementing a FIFO queue for in-store
+                  payments.
+                </p>
+              </li>
 
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Stealth mode</h4>
-              <span>Aug 2021 - Aug 2022</span>
-              <p class="timeline-text">
-                ● Created web applications integrating payment gateways for 5+ clients with React and Spring Boot to support bank
-                transfers.<br><br>
-                ● Introduced contactless transactions by supporting payment QR codes using Razorpay API resulting in an 80% adoption
-                rate.<br><br>
-                ● Ensured reliability by limiting the transactions per second (TPS) to 10 by implementing a FIFO queue for in-store
-                payments.
-              </p>
-            </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Volunteer (Yocket Community Mentor Program)
+                </h4>
+                <span>Sept 2020 – Jul 2022</span>
+                <p class="timeline-text">
+                  ● Awarded 3 best performance awards for introducing the
+                  community mentor program and performing data analysis to boost
+                  user engagement by 80% between September 2020 and July 2022 at
+                  Yocket, an education study abroad community.
+                </p>
+              </li>
 
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Volunteer (Yocket Community Mentor Program)</h4>
-              <span>Sept 2020 – Jul 2022</span>
-              <p class="timeline-text">
-                ● Awarded 3 best performance awards for introducing the community mentor program and performing data
-                analysis to boost
-                user engagement by 80% between September 2020 and July 2022 at Yocket, an education study abroad
-                community.
-              </p>
-            </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Accenture</h4>
+                <span>Jul 2019 – Jul 2020</span>
+                <p class="timeline-text">
+                  ● Migrated a legacy health insurance system along with its
+                  10,000+ customer base to the cloud for commission
+                  management.<br /><br />
+                  ● Developed migration scripts using SQL and Python to
+                  facilitate data migration, reducing migration time by 40%.<br /><br />
+                  ● Performed query optimization in Oracle and pagination
+                  strategies, slashing report loading time by 25 seconds.<br /><br />
+                  ● Logged and reviewed error messages using Logstash to
+                  troubleshoot issues, minimizing downtime by 30%.
+                </p>
+              </li>
+            </ol>
+          </section>
 
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Accenture</h4>
-              <span>Jul 2019 – Jul 2020</span>
-              <p class="timeline-text">
-                ● Migrated a legacy health insurance system along with its 10,000+ customer base to the cloud for commission management.<br><br>
-                ● Developed migration scripts using SQL and Python to facilitate data migration, reducing migration time by 40%.<br><br>
-                ● Performed query optimization in Oracle and pagination strategies, slashing report loading time by 25 seconds.<br><br>
-                ● Logged and reviewed error messages using Logstash to troubleshoot issues, minimizing downtime by 30%.
-              </p>
-            </li>
-
-          </ol>
-
-        </section>
-
-        <!-- <section class="skill">
+          <!-- <section class="skill">
         
           <h3 class="h3 skills-title">My skills</h3>
         
@@ -437,167 +433,239 @@
           </ul>
         
         </section> -->
+        </article>
 
-      </article>
-
-      <!--
+        <!--
         - #PORTFOLIO
       -->
 
-      <article class="portfolio" data-page="portfolio">
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Projects and Publications</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">Projects and Publications</h2>
-        </header>
+          <section class="projects">
+            <ul class="filter-list"></ul>
 
-        <section class="projects">
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
 
-          <ul class="filter-list">
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
 
-          </ul>
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+              </ul>
+            </div>
 
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
+            <ul class="project-list">
+              <!-- AETNA hospital Locator -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Projects"
+              >
+                <a href="https://github.com/ankitdani/medical-services-backend">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/project-9.png"
+                      alt="Talk"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">
+                    HealthMap - Real-Time Hospital Locator for AETNA Insurance
+                    Holders
+                  </h3>
+                  <p class="project-category">
+                    Web application integrating Google Maps to display real-time
+                    hospital data
+                  </p>
+                </a>
               </li>
 
+              <!-- URL Shortener Project -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Projects"
+              >
+                <a href="https://github.com/ankitdani/Link-Shortener">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/project-9.png"
+                      alt="Talk"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">URL Shortener</h3>
+                  <p class="project-category">
+                    Web application utilising Redis (an in-memory data store)
+                    for shorter response time
+                  </p>
+                </a>
+              </li>
+
+              <!-- CritiqueCritique Project -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Projects"
+              >
+                <a
+                  href="https://github.com/ankitdani/Critique-Critique-Backend"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/project-6.png"
+                      alt="CritiqueCritique"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">CritiqueCritique</h3>
+                  <p class="project-category">
+                    Movie Review Web application leveraging Spring Boot,
+                    MongoDB, and React
+                  </p>
+                </a>
+              </li>
+
+              <!-- Astrosat Deck Project -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Projects"
+              >
+                <a href="https://github.com/ankitdani/iucaa_x">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/project-4.png"
+                      alt="Astrosat Deck"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">Astrosat Deck</h3>
+                  <p class="project-category">
+                    Android App to read satellite observations
+                  </p>
+                </a>
+              </li>
+
+              <!-- Publication 1 -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Publications"
+              >
+                <!-- <a href="https://link.springer.com/chapter/10.1007/978-981-15-0790-8_4"> -->
+                <a
+                  href="https://drive.google.com/file/d/1Cgt6Bde7MO7zidqguQHsVsLQC5p1hHeA/view?usp=drive_link"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/project-7.png"
+                      alt="Astrosat Deck"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">
+                    Comparative Analysis for an Optimized Data-Driven System
+                  </h3>
+                  <p class="project-category">IEEE Publication</p>
+                </a>
+              </li>
+
+              <!-- Publication 2 -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Publications"
+              >
+                <!-- <a href="https://ieeexplore.ieee.org/document/8944504"> -->
+                <a
+                  href="https://drive.google.com/file/d/1qqwmhk5UWmqG4mUfof1-YwpFp_OuSeeO/view?usp=sharing"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/project-1.jpg"
+                      alt="Astrosat Deck"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">
+                    Architectural Optimization of Large Scale Astronomical Data
+                  </h3>
+                  <p class="project-category">Springer Publication</p>
+                </a>
+              </li>
+
+              <!-- Publication 3 -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Publications"
+              >
+                <!-- <a href="https://link.springer.com/chapter/10.1007/978-981-15-0790-8_24"> -->
+                <a
+                  href="https://drive.google.com/file/d/1eKf39NVNx4Z7qWlCvvI7t1CBfI2VZBPY/view?usp=drive_link"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/project-8.jpg"
+                      alt="Astrosat Deck"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">
+                    Case Study: Use of AWS Lambda for Building a Serverless Chat
+                    Application
+                  </h3>
+                  <p class="project-category">Springer Publication</p>
+                </a>
+              </li>
             </ul>
+          </section>
+        </article>
+      </div>
+    </main>
 
-          </div>
+    <script src="./assets/js/script.js"></script>
 
-          <ul class="project-list">
-
-            <!-- AETNA hospital Locator -->
-            <li class="project-item active" data-filter-item data-category="Projects">
-              <a href="https://github.com/ankitdani/medical-services-backend">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/project-9.png" alt="Talk" loading="lazy">
-                </figure>
-                <h3 class="project-title">HealthMap - Real-Time Hospital Locator for AETNA Insurance Holders</h3>
-                <p class="project-category">Web application integrating Google Maps to display real-time hospital data</p>
-              </a>
-            </li>
-
-            <!-- URL Shortener Project -->
-            <li class="project-item active" data-filter-item data-category="Projects">
-              <a href="https://github.com/ankitdani/Link-Shortener">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/project-9.png" alt="Talk" loading="lazy">
-                </figure>
-                <h3 class="project-title">URL Shortener</h3>
-                <p class="project-category">Web application utilising Redis (an in-memory data store) for shorter
-                  response time</p>
-              </a>
-            </li>
-
-
-            <!-- CritiqueCritique Project -->
-            <li class="project-item active" data-filter-item data-category="Projects">
-              <a href="https://github.com/ankitdani/Critique-Critique-Backend">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/project-6.png" alt="CritiqueCritique" loading="lazy">
-                </figure>
-                <h3 class="project-title">CritiqueCritique</h3>
-                <p class="project-category">Movie Review Web application leveraging Spring Boot, MongoDB, and React</p>
-              </a>
-            </li>
-
-            <!-- Astrosat Deck Project -->
-            <li class="project-item active" data-filter-item data-category="Projects">
-              <a href="https://github.com/ankitdani/iucaa_x">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/project-4.png" alt="Astrosat Deck" loading="lazy">
-                </figure>
-                <h3 class="project-title">Astrosat Deck</h3>
-                <p class="project-category">Android App to read satellite observations</p>
-              </a>
-            </li>
-
-            <!-- Publication 1 -->
-            <li class="project-item active" data-filter-item data-category="Publications">
-              <!-- <a href="https://link.springer.com/chapter/10.1007/978-981-15-0790-8_4"> -->
-              <a href="https://drive.google.com/file/d/1Cgt6Bde7MO7zidqguQHsVsLQC5p1hHeA/view?usp=drive_link">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/project-7.png" alt="Astrosat Deck" loading="lazy">
-                </figure>
-                <h3 class="project-title">Comparative Analysis for an Optimized Data-Driven System</h3>
-                <p class="project-category">IEEE Publication</p>
-              </a>
-            </li>
-
-            <!-- Publication 2 -->
-            <li class="project-item active" data-filter-item data-category="Publications">
-              <!-- <a href="https://ieeexplore.ieee.org/document/8944504"> -->
-              <a href="https://drive.google.com/file/d/1qqwmhk5UWmqG4mUfof1-YwpFp_OuSeeO/view?usp=sharing">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/project-1.jpg" alt="Astrosat Deck" loading="lazy">
-                </figure>
-                <h3 class="project-title">Architectural Optimization of Large Scale Astronomical Data</h3>
-                <p class="project-category">Springer Publication</p>
-              </a>
-            </li>
-
-            <!-- Publication 3 -->
-            <li class="project-item active" data-filter-item data-category="Publications">
-              <!-- <a href="https://link.springer.com/chapter/10.1007/978-981-15-0790-8_24"> -->
-              <a href="https://drive.google.com/file/d/1eKf39NVNx4Z7qWlCvvI7t1CBfI2VZBPY/view?usp=drive_link">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/project-8.jpg" alt="Astrosat Deck" loading="lazy">
-                </figure>
-                <h3 class="project-title">Case Study: Use of AWS Lambda for Building a Serverless Chat Application</h3>
-                <p class="project-category">Springer Publication</p>
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-    </div>
-
-  </main>
-
-  <script src="./assets/js/script.js"></script>
-
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>
-
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
