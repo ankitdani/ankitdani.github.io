@@ -21,7 +21,6 @@ Here are some ideas to get you started:
 👯 I’m looking to collaborate on developing full-stack applications. Check out my portfolio [here](https://ankitdani.github.io/).
 <br>
 <br>
-📫 How to reach me: Send me an email at [ankitdani1997@gmail.com](ankitdani1997@gmail.com) or say 'hi' to me on [LinkedIn](https://www.linkedin.com/in/ankit-dani/). 
 <br>
 <br>
 😄 Pronouns: he/him
