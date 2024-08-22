@@ -21,11 +21,6 @@ Here are some ideas to get you started:
 👯 I’m looking to collaborate on developing full-stack applications. Check out my portfolio [here](https://ankitdani.github.io/).
 <br>
 <br>
-<br>
-<br>
-😄 Pronouns: he/him
-<br>
-<br>
 ⚡ Fun fact: I enjoy dedicating my time to volunteer for causes and non-profit organizations that champion carbon neutrality, strive for net zero emissions and promote eco-friendly initiatives.
 
 ###### Acknowledgements:
